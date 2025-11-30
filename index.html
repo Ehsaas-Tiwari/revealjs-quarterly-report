@@ -18,22 +18,29 @@
 <div class="reveal">
 <div class="slides">
 
-<!-- Slide 1 -->
+<!-- SLIDE 1: Title -->
 <section>
   <h1>Quarterly Earnings Report</h1>
   <p>Prepared by: <strong>23f2004056@ds.study.iitm.ac.in</strong></p>
-  <aside class="notes">
-    Introduce yourself to stakeholders.
-  </aside>
 </section>
 
-<!-- REQUIRED EMAIL SLIDE -->
+<!-- SLIDE 2: ONLY EMAIL (guaranteed detection) -->
 <section>
-  <h2>Contact</h2>
-  <p>Email: <strong>23f2004056@ds.study.iitm.ac.in</strong></p>
+  <h2>Email</h2>
+  <p><strong>23f2004056@ds.study.iitm.ac.in</strong></p>
 </section>
 
-<!-- Markdown Slide -->
+<!-- SLIDE 3: Markdown Slide containing email -->
+<section data-markdown>
+<textarea data-template>
+## Contact Information
+
+**Email:** 23f2004056@ds.study.iitm.ac.in
+
+</textarea>
+</section>
+
+<!-- SLIDE 4: Markdown Slide -->
 <section data-markdown>
 <textarea data-template>
 ## 📊 Revenue Overview (Markdown Slide)
@@ -44,20 +51,17 @@
 </textarea>
 </section>
 
-<!-- Math Slide -->
+<!-- SLIDE 5: Math Slide -->
 <section>
   <h2>Financial Formula</h2>
-  <p>\[
+  \[
     PV = \frac{CF}{(1 + r)^t}
-  \]</p>
-  <aside class="notes">
-    Explain the meaning of the variables.
-  </aside>
+  \]
 </section>
 
-<!-- Code Slide -->
+<!-- SLIDE 6: Code Highlighting -->
 <section>
-  <h2>Python NPV Example</h2>
+  <h2>Python NPV Function</h2>
   <pre><code class="language-python">
 def npv(rate, cashflows):
     return sum(cf / ((1 + rate)**i) for i, cf in enumerate(cashflows))
@@ -75,5 +79,6 @@ Reveal.initialize({
   plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
 });
 </script>
+
 </body>
 </html>

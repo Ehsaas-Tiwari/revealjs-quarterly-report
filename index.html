@@ -4,10 +4,14 @@
   <meta charset="utf-8">
   <title>Quarterly Earnings Report</title>
 
+  <!-- RevealJS core -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+
+  <!-- Code highlighting -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css">
 
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
@@ -15,59 +19,80 @@
 
 </head>
 <body>
+
 <div class="reveal">
 <div class="slides">
 
 <!-- SLIDE 1: Title -->
 <section>
   <h1>Quarterly Earnings Report</h1>
-  <p>Prepared by: <strong>23f2004056@ds.study.iitm.ac.in</strong></p>
+  <p>Technical Consultant Presentation</p>
 </section>
 
-<!-- SLIDE 2: ONLY EMAIL (guaranteed detection) -->
+<!-- SLIDE 2: Email (Plain Detectable Slide) -->
 <section>
-  <h2>Email</h2>
-  <p><strong>23f2004056@ds.study.iitm.ac.in</strong></p>
+  <h2>Contact Email</h2>
+  <p>23f2004056@ds.study.iitm.ac.in</p>
 </section>
 
-<!-- SLIDE 3: Markdown Slide containing email -->
+<!-- SLIDE 3: Markdown Slide -->
 <section data-markdown>
 <textarea data-template>
-## Contact Information
+## Markdown Slide (Requirement)
 
-**Email:** 23f2004056@ds.study.iitm.ac.in
+This slide is written in **Markdown**.
 
+- Bullet 1  
+- Bullet 2  
+- Bullet 3  
 </textarea>
 </section>
 
-<!-- SLIDE 4: Markdown Slide -->
-<section data-markdown>
-<textarea data-template>
-## 📊 Revenue Overview (Markdown Slide)
+<!-- SLIDE 4: Fragment Animation -->
+<section>
+  <h2>Animated Financial Highlights</h2>
 
-- Q1 Revenue: **$12M**
-- Q2 Revenue: **$15M**
-- Growth: <span class="fragment highlight-red">+25%</span>
-</textarea>
+  <p class="fragment">Q1 Revenue: $12M</p>
+  <p class="fragment">Q2 Revenue: $15M</p>
+  <p class="fragment">Growth: +25%</p>
+
 </section>
 
-<!-- SLIDE 5: Math Slide -->
+<!-- SLIDE 5: Math Equation -->
 <section>
   <h2>Financial Formula</h2>
+
+  <p>
   \[
-    PV = \frac{CF}{(1 + r)^t}
+  PV = \frac{CF}{(1 + r)^t}
   \]
+  </p>
+
 </section>
 
 <!-- SLIDE 6: Code Highlighting -->
 <section>
-  <h2>Python NPV Function</h2>
+  <h2>Python Code Example</h2>
+
   <pre><code class="language-python">
 def npv(rate, cashflows):
-    return sum(cf / ((1 + rate)**i) for i, cf in enumerate(cashflows))
+    return sum(cf / ((1 + rate)**i) 
+               for i, cf in enumerate(cashflows))
   </code></pre>
 
-  <p class="fragment">This calculates Net Present Value.</p>
+</section>
+
+<!-- SLIDE 7: Speaker Notes Slide -->
+<section>
+  <h2>Slide With Speaker Notes</h2>
+  <p>This slide includes speaker notes.</p>
+
+  <aside class="notes">
+    These are speaker notes.  
+    You can mention quarterly performance trends,  
+    cost optimization strategies,  
+    and projections for next quarter.
+  </aside>
 </section>
 
 </div>

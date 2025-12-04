@@ -1,109 +1,282 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Quarterly Earnings Report</title>
-
-  <!-- RevealJS core -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
-
-  <!-- Code highlighting -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css">
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/math/math.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 2024 Earnings Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/monokai.min.css">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 {
+            text-transform: none;
+        }
+        .reveal .contact-info {
+            font-size: 0.6em;
+            color: #42affa;
+        }
+        .reveal .formula-box {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .reveal .metric {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+        }
+        .reveal .metric h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .reveal .metric p {
+            margin: 5px 0 0 0;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- Title Slide -->
+            <section data-background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+                <h1>Q4 2024 Earnings Report</h1>
+                <h3>Financial Performance & Strategic Outlook</h3>
+                <p style="margin-top: 50px;">
+                    <small>Technical Consultant</small><br>
+                    <small class="contact-info">23f2004056@ds.study.iitm.ac.in</small>
+                </p>
+                <aside class="notes">
+                    Welcome stakeholders to the Q4 2024 earnings presentation. 
+                    This report covers our financial performance, key metrics, and strategic initiatives.
+                    Expected duration: 15-20 minutes with Q&A.
+                </aside>
+            </section>
 
-<div class="reveal">
-<div class="slides">
+            <!-- Executive Summary (Markdown Slide) -->
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
+                    ## Executive Summary
+                    
+                    Our institution delivered **strong performance** in Q4 2024:
+                    
+                    - Revenue increased by **18.5%** YoY
+                    - Operating margin improved to **32.4%**
+                    - Customer acquisition up **24%**
+                    - Digital banking adoption reached **78%**
+                    
+                    > "Best quarterly performance in company history"
+                    
+                    Note:
+                    Highlight the exceptional growth across all key metrics.
+                    Emphasize the digital transformation success.
+                    Be prepared to discuss the factors driving revenue growth.
+                </textarea>
+            </section>
 
-<!-- SLIDE 1: Title -->
-<section>
-  <h1>Quarterly Earnings Report</h1>
-  <p>Technical Consultant Presentation</p>
-</section>
+            <!-- Key Metrics with Fragments -->
+            <section>
+                <h2>Key Financial Metrics</h2>
+                <div class="metric fragment fade-up">
+                    <h3>Total Revenue</h3>
+                    <p>$2.4B</p>
+                </div>
+                <div class="metric fragment fade-up">
+                    <h3>Net Income</h3>
+                    <p>$680M</p>
+                </div>
+                <div class="metric fragment fade-up">
+                    <h3>EPS</h3>
+                    <p>$4.52</p>
+                </div>
+                <aside class="notes">
+                    Walk through each metric as it appears.
+                    Revenue: $2.4B represents 18.5% YoY growth.
+                    Net Income: $680M shows strong profitability with 28.3% margin.
+                    EPS: $4.52 exceeded analyst expectations of $4.20.
+                </aside>
+            </section>
 
-<!-- SLIDE 2: Email (Plain Detectable Slide) -->
-<section>
-  <h2>Contact Email</h2>
-  <p>23f2004056@ds.study.iitm.ac.in</p>
-</section>
+            <!-- Financial Formulas -->
+            <section>
+                <h2>Valuation Metrics</h2>
+                <div class="formula-box fragment">
+                    <h3>Return on Equity (ROE)</h3>
+                    <p>\[ ROE = \frac{\text{Net Income}}{\text{Shareholder Equity}} = \frac{680M}{3.2B} = 21.25\% \]</p>
+                </div>
+                <div class="formula-box fragment">
+                    <h3>Price-to-Earnings Ratio</h3>
+                    <p>\[ P/E = \frac{\text{Market Price per Share}}{\text{Earnings per Share}} = \frac{72.30}{4.52} = 16.0x \]</p>
+                </div>
+                <div class="formula-box fragment">
+                    <h3>Compound Annual Growth Rate</h3>
+                    <p>\[ CAGR = \left(\frac{\text{Ending Value}}{\text{Beginning Value}}\right)^{\frac{1}{n}} - 1 = 22.4\% \]</p>
+                </div>
+                <aside class="notes">
+                    ROE of 21.25% significantly exceeds industry average of 15%.
+                    P/E ratio of 16.0x is attractive compared to sector median of 18.5x.
+                    3-year CAGR of 22.4% demonstrates consistent growth trajectory.
+                </aside>
+            </section>
 
-<!-- SLIDE 3: Markdown Slide -->
-<section data-markdown>
-<textarea data-template>
-## Markdown Slide (Requirement)
+            <!-- Code Sample: Risk Calculation -->
+            <section>
+                <h2>Risk Assessment Algorithm</h2>
+                <p class="fragment">Our proprietary risk scoring system:</p>
+                <pre class="fragment"><code class="language-python" data-trim data-line-numbers="1-2|4-8|10-12">
+import numpy as np
+from scipy.stats import norm
 
-This slide is written in **Markdown**.
+def calculate_var(portfolio_value, returns, confidence_level=0.95):
+    """Calculate Value at Risk (VaR) using parametric method"""
+    mean_return = np.mean(returns)
+    std_return = np.std(returns)
+    var_percentile = norm.ppf(1 - confidence_level)
+    
+    var = portfolio_value * (mean_return + var_percentile * std_return)
+    
+    return abs(var)
 
-- Bullet 1  
-- Bullet 2  
-- Bullet 3  
-</textarea>
-</section>
+# Example: $100M portfolio
+portfolio_var = calculate_var(100_000_000, daily_returns)
+print(f"95% VaR: ${portfolio_var:,.2f}")
+                </code></pre>
+                <aside class="notes">
+                    This is our core risk calculation engine.
+                    Line 1-2: Import necessary statistical libraries.
+                    Lines 4-8: Define VaR calculation using normal distribution.
+                    Lines 10-12: Return the absolute value at risk.
+                    Currently monitoring $12.4B in total portfolio value.
+                </aside>
+            </section>
 
-<!-- SLIDE 4: Fragment Animation -->
-<section>
-  <h2>Animated Financial Highlights</h2>
+            <!-- Code Sample: Transaction Processing -->
+            <section>
+                <h2>High-Performance Transaction Engine</h2>
+                <pre><code class="language-javascript" data-trim data-line-numbers="1-3|5-9|11-15">
+class TransactionProcessor {
+    constructor() {
+        this.queue = [];
+        this.processing = false;
+    }
 
-  <p class="fragment">Q1 Revenue: $12M</p>
-  <p class="fragment">Q2 Revenue: $15M</p>
-  <p class="fragment">Growth: +25%</p>
+    async processTransaction(txn) {
+        // Validate transaction
+        if (!this.validateTransaction(txn)) {
+            throw new Error('Invalid transaction');
+        }
+        
+        // Execute with retry logic
+        const result = await this.executeWithRetry(txn, 3);
+        
+        // Update ledger and notify
+        await this.updateLedger(result);
+        await this.notifyStakeholders(result);
+        
+        return result;
+    }
+}
 
-</section>
+// Processing 50,000+ transactions per second
+                </code></pre>
+                <aside class="notes">
+                    Our upgraded transaction engine now handles 50K+ TPS.
+                    This represents a 3x improvement over previous quarter.
+                    Retry logic ensures 99.99% transaction success rate.
+                    Real-time ledger updates maintain data consistency.
+                </aside>
+            </section>
 
-<!-- SLIDE 5: Math Equation -->
-<section>
-  <h2>Financial Formula</h2>
+            <!-- Strategic Initiatives with Fragments -->
+            <section>
+                <h2>2025 Strategic Initiatives</h2>
+                <ol>
+                    <li class="fragment fade-in-then-semi-out">Expand AI-powered fraud detection to reduce losses by 40%</li>
+                    <li class="fragment fade-in-then-semi-out">Launch blockchain-based settlement system Q2 2025</li>
+                    <li class="fragment fade-in-then-semi-out">Integrate quantum-resistant cryptography infrastructure</li>
+                    <li class="fragment fade-in-then-semi-out">Deploy predictive analytics for personalized financial products</li>
+                    <li class="fragment highlight-current-blue">Achieve carbon-neutral operations by Q4 2025</li>
+                </ol>
+                <aside class="notes">
+                    Five key initiatives for 2025.
+                    AI fraud detection already in pilot with promising results.
+                    Blockchain settlement will reduce processing time from 3 days to real-time.
+                    Quantum cryptography future-proofs our security infrastructure.
+                    Predictive analytics expected to increase product adoption by 35%.
+                    ESG initiative: carbon neutrality aligns with stakeholder values.
+                </aside>
+            </section>
 
-  <p>
-  \[
-  PV = \frac{CF}{(1 + r)^t}
-  \]
-  </p>
+            <!-- Market Comparison -->
+            <section>
+                <h2>Competitive Position</h2>
+                <div class="fragment">
+                    <h3>Market Share Growth</h3>
+                    <p>\[ \text{Market Share} = \frac{\text{Company Revenue}}{\text{Total Market Revenue}} \times 100 = 12.8\% \]</p>
+                </div>
+                <div class="fragment">
+                    <p><strong>Industry Rankings:</strong></p>
+                    <ul>
+                        <li>Digital Banking: #3 globally</li>
+                        <li>Customer Satisfaction: 4.6/5.0</li>
+                        <li>Innovation Index: Top 10</li>
+                    </ul>
+                </div>
+                <aside class="notes">
+                    Market share increased from 11.2% to 12.8% in 12 months.
+                    Digital banking ranking moved up from #5 to #3.
+                    Customer satisfaction improved 0.3 points YoY.
+                    Innovation index recognizes our tech investments.
+                </aside>
+            </section>
 
-</section>
+            <!-- Q&A Slide -->
+            <section data-background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+                <h1>Questions & Discussion</h1>
+                <p style="margin-top: 50px;">
+                    <small>Contact Information</small><br>
+                    <small class="contact-info">23f2004056@ds.study.iitm.ac.in</small>
+                </p>
+                <aside class="notes">
+                    Open floor for questions.
+                    Be prepared to discuss: regulatory challenges, M&A strategy, 
+                    technology investments, competitive threats, and 2025 guidance.
+                    Thank stakeholders for their continued support.
+                </aside>
+            </section>
 
-<!-- SLIDE 6: Code Highlighting -->
-<section>
-  <h2>Python Code Example</h2>
+        </div>
+    </div>
 
-  <pre><code class="language-python">
-def npv(rate, cashflows):
-    return sum(cf / ((1 + rate)**i) 
-               for i, cf in enumerate(cashflows))
-  </code></pre>
-
-</section>
-
-<!-- SLIDE 7: Speaker Notes Slide -->
-<section>
-  <h2>Slide With Speaker Notes</h2>
-  <p>This slide includes speaker notes.</p>
-
-  <aside class="notes">
-    These are speaker notes.  
-    You can mention quarterly performance trends,  
-    cost optimization strategies,  
-    and projections for next quarter.
-  </aside>
-</section>
-
-</div>
-</div>
-
-<script>
-Reveal.initialize({
-  hash: true,
-  plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
-});
-</script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/math/math.min.js"></script>
+    
+    <script>
+        Reveal.initialize({
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide',
+            math: {
+                mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js',
+                config: 'TeX-AMS_HTML-full'
+            },
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealNotes,
+                RevealMath
+            ]
+        });
+    </script>
 </body>
 </html>

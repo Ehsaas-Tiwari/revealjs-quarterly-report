@@ -1,389 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q4 2024 Earnings Report</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/monokai.min.css">
-    <style>
-        .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
-        .reveal .contact-info { font-size: 0.7em; color: #42affa; margin-top: 20px; }
-        .reveal .formula-box { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin: 20px 0; }
-        .reveal .metric { display: inline-block; margin: 20px; text-align: center; }
-        .reveal .metric-value { font-size: 2em; color: #42affa; font-weight: bold; }
-        .reveal .metric-label { font-size: 0.8em; color: #999; }
-        .reveal pre { width: 100%; }
-        .reveal code { max-height: 500px; }
-        .chart-container { width: 100%; height: 400px; }
-    </style>
+  <meta charset="utf-8">
+  <title>Quarterly Earnings Report 23f2004056@ds.study.iitm.ac.in</title>
+
+  <!-- Reveal.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/beige.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+
+  <style>
+    /* Custom styling */
+    .metric {
+      font-size: 2em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .chart-container {
+      width: 90%;
+      height: 400px;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="reveal">
-        <div class="slides">
-            
-            <!-- Slide 1: Title Slide -->
-            <section data-markdown data-separator-notes="^Note:">
-                <textarea data-template>
-                    # Q4 2024 Earnings Report
-                    ## Financial Performance & Strategic Outlook
-                    
-                    **Prepared by Technical Consulting Team**
-                    
-                    <div class="contact-info">
-                        Contact: 23f2004056@ds.study.iitm.ac.in
-                    </div>
-                    
-                    December 2024
-                    
-                    Note:
-                    Welcome everyone to our Q4 2024 earnings presentation.
-                    This quarter has shown exceptional growth across all key metrics.
-                    We'll be covering financial performance, technical achievements, and future outlook.
-                </textarea>
-            </section>
+  <div class="reveal">
+    <div class="slides">
 
-            <!-- Slide 2: Executive Summary with Fragments -->
-            <section>
-                <h2>Executive Summary</h2>
-                <div class="metric fragment fade-in">
-                    <div class="metric-value">$2.4B</div>
-                    <div class="metric-label">Total Revenue</div>
-                </div>
-                <div class="metric fragment fade-in">
-                    <div class="metric-value">+18%</div>
-                    <div class="metric-label">YoY Growth</div>
-                </div>
-                <div class="metric fragment fade-in">
-                    <div class="metric-value">$0.87</div>
-                    <div class="metric-label">EPS</div>
-                </div>
-                <aside class="notes">
-                    Our Q4 results exceeded expectations across all key performance indicators.
-                    Revenue growth of 18% year-over-year demonstrates strong market position.
-                    EPS of $0.87 beats analyst estimates by $0.12.
-                </aside>
-            </section>
+      <!-- Title Slide -->
+      <section>
+        <h1>Quarterly Earnings Report</h1>
+        <h3>Technical Consultant Presentation</h3>
+        <span style="display:none;">This course is shit</span>
+        <aside class="notes">
+          Introduction to self and objective of the quarterly earnings presentation.
+        </aside>
+      </section>
 
-            <!-- Slide 3: Financial Formulas with MathJax -->
-            <section>
-                <h2>Key Financial Metrics</h2>
-                <div class="formula-box fragment fade-up">
-                    <h3>Return on Equity (ROE)</h3>
-                    <p>$$ROE = \frac{Net\ Income}{Shareholders\ Equity} \times 100\%$$</p>
-                    <p class="fragment">Q4 2024 ROE: <span style="color: #42affa;">15.3%</span></p>
-                </div>
-                <div class="formula-box fragment fade-up">
-                    <h3>Earnings Per Share (EPS)</h3>
-                    <p>$$EPS = \frac{Net\ Income - Preferred\ Dividends}{Weighted\ Average\ Shares\ Outstanding}$$</p>
-                    <p class="fragment">Q4 2024 EPS: <span style="color: #42affa;">$0.87</span></p>
-                </div>
-                <aside class="notes">
-                    ROE of 15.3% indicates efficient use of shareholder capital.
-                    Our EPS calculation excludes one-time charges, providing a clear operational picture.
-                    Both metrics show improvement from Q3.
-                </aside>
-            </section>
+      <!-- Key Highlights Slide (Markdown) -->
+      <section data-markdown>
+        <textarea data-template>
+## Key Highlights
 
-            <!-- Slide 4: Markdown Content Slide -->
-            <section data-markdown data-separator-notes="^Note:">
-                <textarea data-template>
-                    ## Revenue Breakdown by Segment
-                    
-                    | Segment | Q4 2024 | Q3 2024 | Growth |
-                    |---------|---------|---------|--------|
-                    | Investment Banking | $890M | $765M | +16.3% |
-                    | Asset Management | $620M | $580M | +6.9% |
-                    | Trading & Markets | $540M | $490M | +10.2% |
-                    | Technology Services | $350M | $285M | +22.8% |
-                    
-                    **Key Highlights:**
-                    - Technology Services segment shows strongest growth
-                    - Investment Banking recovered from Q3 slowdown
-                    - All segments profitable and growing
-                    
-                    Note:
-                    The markdown table clearly shows our diversified revenue streams.
-                    Technology Services growth reflects our digital transformation investments.
-                    Investment Banking recovery driven by increased M&A activity.
-                </textarea>
-            </section>
+- Revenue grew by **12% YoY**
+- Net Profit increased by **8%**
+- Customer base expanded by **5%**
+- Operational costs reduced by **3%**
+        </textarea>
+        <aside class="notes">
+          Present high-level metrics first. Each bullet can be animated using fragments.
+        </aside>
+      </section>
 
-            <!-- Slide 5: Python Code Sample - Risk Calculation -->
-            <section>
-                <h2>Risk Management Implementation</h2>
-                <p>Value at Risk (VaR) Calculation Engine</p>
-                <pre><code class="language-python" data-trim data-line-numbers="1-2|4-8|10-15">
-import numpy as np
-import pandas as pd
+      <!-- Animated Metrics Slide -->
+      <section>
+        <h2>Revenue Breakdown</h2>
+        <ul>
+          <li class="fragment">Product A: <span class="metric">$4.5M</span></li>
+          <li class="fragment">Product B: <span class="metric">$3.2M</span></li>
+          <li class="fragment">Product C: <span class="metric">$2.8M</span></li>
+        </ul>
+        <aside class="notes">
+          Reveal each product revenue step by step.
+        </aside>
+      </section>
 
-def calculate_var(returns, confidence_level=0.95, time_horizon=1):
-    """
-    Calculate Value at Risk using historical simulation method
-    """
-    var_percentile = (1 - confidence_level) * 100
-    
-    # Sort returns and find VaR
-    sorted_returns = np.sort(returns)
-    index = int(np.floor(var_percentile / 100 * len(sorted_returns)))
-    var = sorted_returns[index]
-    
-    return abs(var * time_horizon)
+      <!-- Interactive Chart Slide -->
+      <section>
+        <h2>Revenue & Profit Over Quarters</h2>
+        <canvas id="revenueChart" class="chart-container"></canvas>
+        <aside class="notes">
+          Explain trends using the chart. Highlight Q3 performance spike.
+        </aside>
+      </section>
 
-# Portfolio risk metrics
-portfolio_returns = np.random.normal(0.001, 0.02, 10000)
-daily_var_95 = calculate_var(portfolio_returns, 0.95)
-print(f"Daily VaR (95%): ${daily_var_95 * 1000000:.2f}")
-                </code></pre>
-                <aside class="notes">
-                    This code demonstrates our advanced risk management systems.
-                    We use historical simulation for VaR calculations on all portfolios.
-                    The system processes over 10,000 scenarios daily.
-                </aside>
-            </section>
+      <!-- Code Slide: ROI Calculation -->
+      <section>
+        <h2>Python Code: Calculating ROI</h2>
+        <pre><code class="language-python">
+def roi(gain, cost):
+    return (gain - cost) / cost * 100
 
-            <!-- Slide 6: JavaScript Code Sample - Real-time Trading -->
-            <section>
-                <h2>Real-Time Trading Platform</h2>
-                <p>WebSocket Integration for Market Data</p>
-                <pre><code class="language-javascript" data-trim data-line-numbers="1-3|5-10|12-17">
-class TradingEngine {
-    constructor(apiUrl) {
-        this.ws = new WebSocket(apiUrl);
-        this.orders = new Map();
-        
-        this.ws.onmessage = (event) => {
-            const data = JSON.parse(event.data);
-            this.processMarketData(data);
-        };
-    }
-    
-    processMarketData(data) {
-        const { symbol, price, volume } = data;
-        
-        // Check if any orders should be executed
-        this.checkOrderExecution(symbol, price);
-        this.updatePortfolio(symbol, price);
-    }
-    
-    placeOrder(symbol, quantity, limitPrice) {
-        const order = {
-            id: Date.now(),
-            symbol,
-            quantity,
-            limitPrice,
-            status: 'pending'
-        };
-        
-        this.orders.set(order.id, order);
-        this.ws.send(JSON.stringify(order));
-        return order.id;
-    }
-}
+gain = 500000
+cost = 350000
+print(f"ROI: {roi(gain, cost)}%")
+        </code></pre>
+        <aside class="notes">
+          Demonstrate ROI calculation programmatically.
+        </aside>
+      </section>
 
-// Initialize trading engine
-const engine = new TradingEngine('wss://api.trading.example.com');
-                </code></pre>
-                <aside class="notes">
-                    Our trading platform processes over 50,000 transactions per second.
-                    WebSocket connections ensure sub-millisecond latency.
-                    The system has 99.99% uptime this quarter.
-                </aside>
-            </section>
+      <!-- Financial Formula Slide -->
+      <section>
+          <h3>Financial Formulas (MathJax)</h3>
+          <p>Weighted Average Cost of Capital (WACC):</p>
+          <p>\[ \text{WACC} = \frac{E}{V} r_e + \frac{D}{V} r_d (1 - T) \]</p>
+          <p>Discounted Cash Flow (perpetuity with growth):</p>
+          <p>\[ \text{Value} = \frac{\text{FCF}_1}{r - g} \]</p>
+          <p>Earnings Per Share (EPS): \( \displaystyle EPS = \frac{\text{Net Income}}{\text{Weighted Avg. Shares}} \)</p>
+          <h2>Statistical Formula</h2>
+  \[P(A|B) = \frac{P(B|A)P(A)}{P(B)}\]
+          <aside class="notes">Explain each variable: E (equity), D (debt), V (E+D), r_e, r_d, tax T, growth g.</aside>
+        </section>
 
-            <!-- Slide 7: SQL Code Sample - Data Analytics -->
-            <section>
-                <h2>Advanced Analytics Query</h2>
-                <p>Customer Profitability Analysis</p>
-                <pre><code class="language-sql" data-trim data-line-numbers="1-3|5-8|10-15">
--- Customer Lifetime Value Calculation
-WITH customer_metrics AS (
-    SELECT 
-        customer_id,
-        SUM(transaction_amount) as total_revenue,
-        COUNT(DISTINCT transaction_id) as transaction_count,
-        DATEDIFF(MAX(transaction_date), MIN(transaction_date)) as customer_tenure
-    FROM transactions
-    WHERE transaction_date >= '2024-01-01'
-    GROUP BY customer_id
-)
+        <section>
+          <h2>Thank You</h2>
+          <p>Questions? Reach me at 23f3004293@ds.study.iitm.ac.in</p>
+          <p>Contact Link: <a href="mailto:23f3004293@ds.study.iitm.ac.in">23f3004293@ds.study.iitm.ac.in</a></p>
+          <p class="fragment">Press <kbd>Esc</kbd> for slide overview.</p>
+          <aside class="notes">Wrap up and move to Q&A. Remind audience about the Appendix in the repo.</aside>
+        </section>
 
-SELECT 
-    cm.customer_id,
-    cm.total_revenue,
-    cm.transaction_count,
-    cm.customer_tenure,
-    (cm.total_revenue / NULLIF(cm.customer_tenure, 0)) * 365 as annualized_value,
-    CASE 
-        WHEN cm.total_revenue > 100000 THEN 'Platinum'
-        WHEN cm.total_revenue > 50000 THEN 'Gold'
-        WHEN cm.total_revenue > 10000 THEN 'Silver'
-        ELSE 'Bronze'
-    END as customer_tier
-FROM customer_metrics cm
-ORDER BY annualized_value DESC
-LIMIT 1000;
-                </code></pre>
-                <aside class="notes">
-                    This query segments our customer base by profitability.
-                    We analyze over 5 million customer records daily.
-                    Results drive personalized service strategies.
-                </aside>
-            </section>
 
-            <!-- Slide 8: Advanced Financial Formula -->
-            <section>
-                <h2>Portfolio Optimization</h2>
-                <div class="formula-box">
-                    <h3>Sharpe Ratio</h3>
-                    <p>$$Sharpe\ Ratio = \frac{R_p - R_f}{\sigma_p}$$</p>
-                    <p style="font-size: 0.8em;">Where:</p>
-                    <ul style="font-size: 0.7em; text-align: left;">
-                        <li class="fragment">$R_p$ = Expected portfolio return</li>
-                        <li class="fragment">$R_f$ = Risk-free rate</li>
-                        <li class="fragment">$\sigma_p$ = Portfolio standard deviation</li>
-                    </ul>
-                </div>
-                <div class="fragment fade-up" style="margin-top: 30px;">
-                    <h3>Our Q4 Portfolio Performance</h3>
-                    <p>$$Sharpe\ Ratio = \frac{0.124 - 0.043}{0.089} = 0.91$$</p>
-                </div>
-                <aside class="notes">
-                    Sharpe ratio of 0.91 indicates strong risk-adjusted returns.
-                    This exceeds our benchmark index by 0.15 points.
-                    Portfolio optimization algorithms implemented Q2 showing results.
-                </aside>
-            </section>
+      <!-- Conclusion Slide -->
+      <section>
+        <h2>Conclusion</h2>
+        <ul>
+          <li class="fragment">Strong revenue growth</li>
+          <li class="fragment">Healthy profit margins</li>
+          <li class="fragment">Operational efficiency improved</li>
+        </ul>
+        <aside class="notes">
+          Summarize key takeaways for stakeholders.
+        </aside>
+      </section>
 
-            <!-- Slide 9: Technology Stack with Fragments -->
-            <section>
-                <h2>Technology Infrastructure</h2>
-                <h3 class="fragment fade-in">Cloud-Native Architecture</h3>
-                <ul>
-                    <li class="fragment fade-right">
-                        <strong>Microservices:</strong> 150+ containerized services
-                    </li>
-                    <li class="fragment fade-right">
-                        <strong>Database:</strong> PostgreSQL clusters with 99.99% availability
-                    </li>
-                    <li class="fragment fade-right">
-                        <strong>Message Queue:</strong> Apache Kafka processing 2M msgs/sec
-                    </li>
-                    <li class="fragment fade-right">
-                        <strong>API Gateway:</strong> Kong managing 50K requests/sec
-                    </li>
-                    <li class="fragment fade-right">
-                        <strong>Monitoring:</strong> Prometheus + Grafana real-time dashboards
-                    </li>
-                </ul>
-                <aside class="notes">
-                    Our technology infrastructure scales automatically based on demand.
-                    Migrated 40% of legacy systems to cloud this quarter.
-                    Zero critical incidents in production environment.
-                </aside>
-            </section>
-
-            <!-- Slide 10: Complex Formula - Black-Scholes -->
-            <section>
-                <h2>Options Trading Model</h2>
-                <div class="formula-box">
-                    <h3>Black-Scholes Option Pricing</h3>
-                    <p>$$C = S_0 N(d_1) - Xe^{-rT}N(d_2)$$</p>
-                    <p style="font-size: 0.7em; margin-top: 20px;">Where:</p>
-                    <p style="font-size: 0.6em;">
-                        $$d_1 = \frac{\ln(S_0/X) + (r + \sigma^2/2)T}{\sigma\sqrt{T}}$$
-                    </p>
-                    <p style="font-size: 0.6em;">
-                        $$d_2 = d_1 - \sigma\sqrt{T}$$
-                    </p>
-                </div>
-                <p class="fragment" style="font-size: 0.8em; margin-top: 20px;">
-                    Our trading desk processed <span style="color: #42affa;">$12.4B</span> in options volume using this model
-                </p>
-                <aside class="notes">
-                    Black-Scholes remains foundation for options pricing.
-                    We've enhanced with machine learning for volatility prediction.
-                    Model accuracy improved 8% from Q3.
-                </aside>
-            </section>
-
-            <!-- Slide 11: Future Outlook -->
-            <section data-markdown data-separator-notes="^Note:">
-                <textarea data-template>
-                    ## 2025 Strategic Initiatives
-                    
-                    ### Q1 2025 Priorities
-                    
-                    1. **AI/ML Integration** <!-- .element: class="fragment fade-in" -->
-                       - Deploy predictive analytics across all trading desks
-                       - Reduce operational costs by 15%
-                    
-                    2. **Platform Modernization** <!-- .element: class="fragment fade-in" -->
-                       - Complete cloud migration (60% → 85%)
-                       - Launch new mobile trading app
-                    
-                    3. **Regulatory Compliance** <!-- .element: class="fragment fade-in" -->
-                       - Implement Basel IV requirements
-                       - Enhanced ESG reporting framework
-                    
-                    4. **Market Expansion** <!-- .element: class="fragment fade-in" -->
-                       - Enter Asian markets (Singapore, Hong Kong)
-                       - Launch cryptocurrency trading desk
-                    
-                    Note:
-                    These initiatives position us for continued growth.
-                    Board has approved $250M investment budget for 2025.
-                    All projects have executive sponsorship and clear KPIs.
-                </textarea>
-            </section>
-
-            <!-- Slide 12: Contact & Questions -->
-            <section>
-                <h2>Thank You</h2>
-                <h3 style="margin-top: 50px;">Questions & Discussion</h3>
-                <div style="margin-top: 80px; font-size: 0.9em;">
-                    <p><strong>Technical Consulting Team</strong></p>
-                    <p class="contact-info">📧 23f2004056@ds.study.iitm.ac.in</p>
-                    <p style="font-size: 0.7em; color: #999; margin-top: 40px;">
-                        Full report available on investor relations portal
-                    </p>
-                </div>
-                <aside class="notes">
-                    Open floor for questions.
-                    Technical team available for deep-dive sessions.
-                    Investor materials distributed via email after presentation.
-                </aside>
-            </section>
-
-        </div>
     </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/math/math.min.js"></script>
-    
-    <script>
-        Reveal.initialize({
-            hash: true,
-            center: true,
-            controls: true,
-            progress: true,
-            slideNumber: true,
-            transition: 'slide',
-            math: {
-                mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
-                config: 'TeX-AMS_HTML-full'
-            },
-            plugins: [ 
-                RevealMarkdown, 
-                RevealHighlight, 
-                RevealNotes,
-                RevealMath
-            ]
-        });
-    </script>
+  <!-- Reveal.js & Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/math/math.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      plugins: [ RevealMarkdown, RevealNotes, RevealHighlight, RevealMath.KaTeX ]
+    });
+
+    // Chart.js example for Revenue & Profit
+    const ctx = document.getElementById('revenueChart').getContext('2d');
+    const revenueChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['Q1', 'Q2', 'Q3', 'Q4'],
+        datasets: [
+          { label: 'Revenue ($M)', data: [3.2, 3.8, 4.5, 4.8], borderColor: 'blue', fill: false },
+          { label: 'Profit ($M)', data: [1.2, 1.5, 1.8, 2.0], borderColor: 'green', fill: false }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'top' },
+          title: { display: true, text: 'Revenue & Profit by Quarter' }
+        }
+      }
+    });
+  </script>
 </body>
+
 </html>
